@@ -9,11 +9,17 @@ $ cd AWSDeviceFarmTestResultHelper
 $ pip install -r requirements.txt
 ```
 
-To set up the credentials for AWS device farm api, please reffer [here](https://boto3.readthedocs.io/en/latest/guide/quickstart.html)
 
 To see more about gspread (Google sheet api), reffer [here](https://github.com/burnash/gspread)
 
-You need to set up two configation files
+
+You may need to download the google sheet api credential json, the steps are [here](http://gspread.readthedocs.io/en/latest/oauth2.html)
+
+
+
+To set up the credentials for AWS device farm api, please reffer [here](https://boto3.readthedocs.io/en/latest/guide/quickstart.html)
+
+You need to set up two configation files for boto.
  - ~/.aws/credentials
  - ~/.aws/config
 
