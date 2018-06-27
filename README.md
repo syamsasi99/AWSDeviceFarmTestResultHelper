@@ -9,7 +9,7 @@ $ cd AWSDeviceFarmTestResultHelper
 $ pip install -r requirements.txt
 ```
 
-#### gspread
+### gspread
 
 
 To see more about gspread (Google sheet api), reffer [here](https://github.com/burnash/gspread)
@@ -20,7 +20,7 @@ You may need to download the google sheet api credential json, the steps are [he
 The service account should have the edit access to the google sheet.
 
 
-#### boto
+### boto
 
 To set up the credentials for AWS device farm api, please reffer [here](https://boto3.readthedocs.io/en/latest/guide/quickstart.html)
 
