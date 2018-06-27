@@ -17,7 +17,7 @@ You need to set up two configation files
  - ~/.aws/credentials
  - ~/.aws/config
 
-The content of the files are given below
+The sample content of the files are given below
 
 #### credentials
 ```sh
